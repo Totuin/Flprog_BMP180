@@ -1,6 +1,7 @@
 #pragma once
 #include "Arduino.h"
 #include "flprogUtilites.h"
+#include "flprogI2C.h"
 #include <stdio.h>
 #include <math.h>
 
