@@ -20,7 +20,7 @@
 class FLProgBMP180 : public FLProgI2cStepWorkSensor
 {
 public:
-    FLProgBMP180(FLProgI2C *device);
+    FLProgBMP180(AbstractFLProgI2C *device);
     void pool();
     double getTemperature() { return temperature; };
     double getPressure() { return pressure; };

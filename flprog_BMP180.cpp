@@ -1,6 +1,6 @@
 #include "flprog_BMP180.h"
 
-FLProgBMP180::FLProgBMP180(FLProgI2C *device)
+FLProgBMP180::FLProgBMP180(AbstractFLProgI2C *device)
 {
     i2cDevice = device;
     addres = 0x77;
