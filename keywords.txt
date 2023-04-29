@@ -1,0 +1,30 @@
+#######################################
+# Syntax Coloring Map
+#######################################
+#######################################
+# # Datatypes (KEYWORD1)
+#######################################
+FLProgBMP180	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+altitude	KEYWORD2
+getPressure	KEYWORD2
+getTemperature	KEYWORD2
+pool	KEYWORD2
+sealevel	KEYWORD2
+setOversampling	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+FLPROG_BMP180_COMMAND_PRESSURE0	LITERAL1
+FLPROG_BMP180_COMMAND_PRESSURE1	LITERAL1
+FLPROG_BMP180_COMMAND_PRESSURE2	LITERAL1
+FLPROG_BMP180_COMMAND_PRESSURE3	LITERAL1
+FLPROG_BMP180_COMMAND_TEMPERATURE	LITERAL1
+FLPROG_BMP180_READ_PRESSURE_STEP	LITERAL1
+FLPROG_BMP180_READ_TEMPERATURE_STEP	LITERAL1
+FLPROG_BMP180_REG_CONTROL	LITERAL1
+FLPROG_BMP180_REG_RESULT	LITERAL1
